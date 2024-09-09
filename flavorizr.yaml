@@ -1,5 +1,5 @@
 flavors:
-  apple:
+  dev:
     app:
       name: "Env-dev App"
 
@@ -7,7 +7,7 @@ flavors:
       applicationId: "com.env.dev"
     ios:
       bundleId: "com.env.dev"
-  banana:
+  prod:
     app:
       name: "Banana App"
 
