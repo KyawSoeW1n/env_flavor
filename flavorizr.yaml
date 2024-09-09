@@ -1,0 +1,17 @@
+flavors:
+  apple:
+    app:
+      name: "Env-dev App"
+
+    android:
+      applicationId: "com.env.dev"
+    ios:
+      bundleId: "com.env.dev"
+  banana:
+    app:
+      name: "Banana App"
+
+    android:
+      applicationId: "com.env"
+    ios:
+      bundleId: "com.env"
