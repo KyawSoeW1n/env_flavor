@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_dotenv/flutter_dotenv.dart';
-
 import '../flavors.dart';
 
 class MyHomePage extends StatelessWidget {
@@ -11,15 +9,8 @@ class MyHomePage extends StatelessWidget {
         title: Text(F.title),
       ),
       body: Center(
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.center,
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Text(
-              'Hello ${F.title}',
-            ),
-            Text(dotenv.get('baseURL')),
-          ],
+        child: Text(
+          'Hello ${F.title}',
         ),
       ),
     );

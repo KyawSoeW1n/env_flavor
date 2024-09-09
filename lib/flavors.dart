@@ -13,7 +13,7 @@ class F {
       case Flavor.dev:
         return 'Env-dev App';
       case Flavor.prod:
-        return 'Banana App';
+        return 'Env App';
       default:
         return 'title';
     }

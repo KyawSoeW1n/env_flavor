@@ -9,7 +9,7 @@ flavors:
       bundleId: "com.env.dev"
   prod:
     app:
-      name: "Banana App"
+      name: "Env App"
 
     android:
       applicationId: "com.env"
