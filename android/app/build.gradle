@@ -41,10 +41,20 @@ android {
             applicationId "com.env.dev"
             resValue "string", "app_name", "Env-dev App"
         }
+        mini_dev {
+            dimension "flavor-type"
+            applicationId "com.env.mini.dev"
+            resValue "string", "app_name", "Mini Env-dev App"
+        }
         prod {
             dimension "flavor-type"
             applicationId "com.env"
             resValue "string", "app_name", "Env App"
+        }
+        mini_prod {
+            dimension "flavor-type"
+            applicationId "com.env.mini"
+            resValue "string", "app_name", "Mini Env App"
         }
     }
 
