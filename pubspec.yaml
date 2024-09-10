@@ -42,6 +42,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_flavorizr: ^2.2.3
+  flutter_launcher_icons: ^0.13.1
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
@@ -63,6 +64,8 @@ flutter:
   assets:
     - .env_dev
     - .env_prod
+    - .env_mini_dev
+    - .env_mini_prod
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg

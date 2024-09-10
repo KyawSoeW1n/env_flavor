@@ -1,0 +1,7 @@
+#include? "Pods/Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig"
+#include "Generated.xcconfig"
+
+FLUTTER_TARGET=lib/main_mini_prod.dart
+ASSET_PREFIX=mini_prod
+BUNDLE_NAME=Mini Env App
+BUNDLE_DISPLAY_NAME=Mini Env App

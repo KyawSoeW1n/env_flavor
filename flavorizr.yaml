@@ -7,6 +7,13 @@ flavors:
       applicationId: "com.env.dev"
     ios:
       bundleId: "com.env.dev"
+  mini_dev:
+    app:
+      name: "Mini Env-dev App"
+    android:
+      applicationId: "com.env.mini.dev"
+    ios:
+      bundleId: "com.env.mini.dev"
   prod:
     app:
       name: "Env App"
@@ -15,3 +22,10 @@ flavors:
       applicationId: "com.env"
     ios:
       bundleId: "com.env"
+  mini_prod:
+    app:
+      name: "Mini Env App"
+    android:
+      applicationId: "com.env.mini"
+    ios:
+      bundleId: "com.env.mini"
